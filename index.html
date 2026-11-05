@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sumanth Golla | Java Developer</title>
+<meta name="description" content="Portfolio of Sumanth Golla, an entry-level Java developer building Spring Boot, MySQL and AI-integrated applications.">
+<meta name="theme-color" content="#f7f9fc">
+<meta property="og:title" content="Sumanth Golla | Java Developer">
+<meta property="og:description" content="Entry-level Java developer building Spring Boot, MySQL and AI-integrated applications.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>
+  // Apply saved theme before paint to avoid a flash
+  (function () {
+    try {
+      var t = localStorage.getItem('theme');
+      if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  })();
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+<a class="skip" href="#main">Skip to content</a>
+<div id="progress" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="#home" class="logo">SG<span>.</span></a>
+    <nav id="nav" aria-label="Primary">
+      <ul>
+        <li><a class="link" href="#about">About</a></li>
+        <li><a class="link" href="#skills">Skills</a></li>
+        <li><a class="link" href="#experience">Experience</a></li>
+        <li><a class="link" href="#projects">Projects</a></li>
+        <li><a class="link" href="#education">Education</a></li>
+        <li><a class="link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-ghost btn-sm hide-sm" href="assets/Sumanth_Golla_Resume.pdf" target="_blank" rel="noopener">Resume ↗</a>
+      <button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode" title="Toggle theme">🌙</button>
+      <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero" id="home" style="padding-top:90px">
+    <div class="container hero-grid">
+      <div>
+        <span class="badge"><i class="dot"></i> OPEN TO ENTRY-LEVEL OPPORTUNITIES</span>
+        <p class="eyebrow">HELLO, I'M SUMANTH GOLLA 👋</p>
+        <h1>Building useful things with <span class="grad">Java &amp; code.</span></h1>
+        <div class="typed-line" aria-live="off"><span id="typed"></span><span class="caret"></span></div>
+        <p class="lead">Entry-level Developer focused on building reliable backend systems, full-stack applications, and practical AI-powered experiences.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#projects">Explore my work ↗</a>
+          <a class="btn btn-ghost" href="assets/Sumanth_Golla_Resume.pdf" download>Download Resume ↓</a>
+          <a class="btn btn-ghost" href="#contact">Hire me ✉</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/sumanth8022" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/golla-sumanth/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="#contact">Email ↗</a>
+          <span class="loc">📍 Hyderabad, India</span>
+        </div>
+      </div>
+
+      <div class="code-card" aria-hidden="true">
+        <div class="code-top"><i></i><i></i><i></i><span>Developer.java</span></div>
+        <pre class="code" id="code"></pre>
+        <div class="code-foot">
+          <span class="chip">☕ Java Developer</span>
+          <span class="chip">✦ Spring Boot + AI</span>
+          <span class="chip">💼 SDE Intern @ AppEqual</span>
+          <span class="chip" id="runStatus">● Ready to build</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>JAVA</span><b>✳</b><span>SPRING BOOT</span><b>✳</b><span>MYSQL</span><b>✳</b><span>JAVASCRIPT</span><b>✳</b><span>REST APIS</span><b>✳</b><span>AI INTEGRATION</span><b>✳</b>
+      <span>JAVA</span><b>✳</b><span>SPRING BOOT</span><b>✳</b><span>MYSQL</span><b>✳</b><span>JAVASCRIPT</span><b>✳</b><span>REST APIS</span><b>✳</b><span>AI INTEGRATION</span><b>✳</b>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container about-grid">
+      <div class="reveal">
+        <p class="sec-label">01 / ABOUT ME</p>
+        <h2>A little about myself.</h2>
+        <p>I'm <b>Sumanth Golla</b>, an Information Technology graduate from Malla Reddy University, Hyderabad, with a passion for building software that solves real problems.</p>
+        <p>I work with <b>Java, Spring Boot, Spring Data JPA, and MySQL</b> to develop backend services and full-stack applications. I also enjoy exploring how AI can make everyday software more helpful.</p>
+        <p>I'm looking for an opportunity to grow as a software engineer, contribute to a collaborative team, and keep learning through hands-on development.</p>
+        <a class="btn btn-primary" href="#contact">Let's connect ↗</a>
+      </div>
+      <div class="stats reveal">
+        <div class="stat"><b><span class="count-up" data-to="2025" data-plain="1">2025</span></b><span>B.Tech Graduation</span></div>
+        <div class="stat"><b><span class="count-up" data-to="4">4</span></b><span>Portfolio Projects</span></div>
+        <div class="stat"><b><span class="count-up" data-to="7.9" data-dec="1">7.9</span></b><span>University CGPA</span></div>
+        <div class="stat"><b>Hyderabad</b><span>Based in India</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="reveal">
+        <p class="sec-label">02 / TECH STACK</p>
+        <h2>Tools I work with.</h2>
+        <p class="sec-sub">Technologies I've used in my projects and learning.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="card reveal"><div class="ic">☕</div><h3>Backend Development</h3>
+          <div class="tags"><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">Spring Data JPA</span><span class="tag">Hibernate</span><span class="tag">REST APIs</span></div></div>
+        <div class="card reveal"><div class="ic">◈</div><h3>Frontend Development</h3>
+          <div class="tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">Thymeleaf</span></div></div>
+        <div class="card reveal"><div class="ic">▤</div><h3>Database &amp; Cloud</h3>
+          <div class="tags"><span class="tag">MySQL</span><span class="tag">SQL</span><span class="tag">AWS S3</span><span class="tag">Render</span></div></div>
+        <div class="card reveal"><div class="ic">✳</div><h3>AI &amp; Other Tools</h3>
+          <div class="tags"><span class="tag">Groq API</span><span class="tag">Apache PDFBox</span><span class="tag">GitHub</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="container">
+      <div class="reveal">
+        <p class="sec-label">03 / EXPERIENCE</p>
+        <h2>Where I'm working.</h2>
+        <p class="sec-sub">Hands-on experience building software in a real team.</p>
+      </div>
+      <div class="card exp reveal">
+        <div class="proj-head">
+          <span class="kind">SOFTWARE ENGINEER INTERN</span>
+          <span class="status live">Currently working</span>
+        </div>
+        <h3>AppEqual E-Commerce Private Limited</h3>
+        <p class="exp-role">Software Engineer Intern</p>
+        <p class="exp-desc">Working as a software engineer intern, applying my Java and backend development skills on real-world e-commerce software alongside an experienced team.</p>
+        <div class="tags"><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">MySQL</span><span class="tag">REST APIs</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="reveal">
+        <p class="sec-label">04 / SELECTED WORK</p>
+        <h2>Things I've built.</h2>
+        <p class="sec-sub">A collection of full-stack, AI, cloud, and frontend projects.</p>
+        <div class="filters" role="tablist" aria-label="Filter projects">
+          <button class="filter on" data-f="all">All</button>
+          <button class="filter" data-f="ai">AI</button>
+          <button class="filter" data-f="fullstack">Full-stack</button>
+          <button class="filter" data-f="cloud">Cloud</button>
+          <button class="filter" data-f="frontend">Frontend</button>
+        </div>
+      </div>
+      <div class="proj-grid">
+        <article class="card proj reveal" data-cat="ai fullstack">
+          <div class="proj-head"><span class="kind">01 / FEATURED · HEALTHCARE / AI</span><span class="status live">Deployed</span></div>
+          <h3>Healthcare Management System with AI</h3>
+          <p>A full-stack healthcare platform for managing patients, doctors, and appointments, featuring a Groq-powered chatbot for user queries, doctor suggestions, and report summaries. Deployed on Render with cloud-hosted MySQL.</p>
+          <div class="more">Highlights: patient, doctor and appointment management, an AI chatbot for queries, doctor suggestions, and report summaries.</div>
+          <div class="tags"><span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">MySQL</span><span class="tag">Groq API</span></div>
+          <div class="proj-actions">
+            <a class="btn btn-primary btn-sm" href="https://github.com/sumanth8022/HealthCare_AI" target="_blank" rel="noopener">View source ↗</a>
+            <button class="btn btn-ghost btn-sm toggle">Details ▾</button>
+          </div>
+        </article>
+
+        <article class="card proj reveal" data-cat="ai fullstack">
+          <div class="proj-head"><span class="kind">02 / AI · DOCUMENT INTELLIGENCE</span><span class="status dev">In development</span></div>
+          <h3>AI Document Q&amp;A Assistant</h3>
+          <p>A Spring Boot application in development that extracts PDF text with Apache PDFBox and uses Groq API to answer questions with supporting page references.</p>
+          <div class="more">Highlights: PDF text extraction, question answering over document content, answers cite supporting page references.</div>
+          <div class="tags"><span class="tag">Java</span><span class="tag">PDFBox</span><span class="tag">MySQL</span><span class="tag">Groq API</span></div>
+          <div class="proj-actions">
+            <a class="btn btn-primary btn-sm" href="https://github.com/sumanth8022/document-chatbot" target="_blank" rel="noopener">View source ↗</a>
+            <button class="btn btn-ghost btn-sm toggle">Details ▾</button>
+          </div>
+        </article>
+
+        <article class="card proj reveal" data-cat="cloud">
+          <div class="proj-head"><span class="kind">03 / CLOUD · WEB</span><span class="status old">2023</span></div>
+          <h3>E-Auction / E-Commerce Website</h3>
+          <p>A website for household items and books, deployed as static web content using an AWS S3 bucket. Explored cloud hosting, deployment configuration, and reliable content delivery.</p>
+          <div class="more">Highlights: static hosting on AWS S3, bucket configuration and deployment, introduction to cloud content delivery.</div>
+          <div class="tags"><span class="tag">Web Development</span><span class="tag">AWS S3</span><span class="tag">Cloud Hosting</span></div>
+          <div class="proj-actions">
+            <button class="btn btn-ghost btn-sm toggle">Details ▾</button>
+          </div>
+        </article>
+
+        <article class="card proj reveal" data-cat="frontend">
+          <div class="proj-head"><span class="kind">04 / FRONTEND · JAVASCRIPT</span><span class="status old">Personal project</span></div>
+          <h3>To-Do List Application</h3>
+          <p>A task management application built with HTML, CSS, and JavaScript, demonstrating interactive interfaces and DOM-based task handling.</p>
+          <div class="more">Highlights: add, complete and remove tasks with DOM manipulation and a clean interactive interface.</div>
+          <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+          <div class="proj-actions">
+            <a class="btn btn-primary btn-sm" href="https://github.com/sumanth8022/To-Do" target="_blank" rel="noopener">View source ↗</a>
+            <button class="btn btn-ghost btn-sm toggle">Details ▾</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <div class="reveal">
+        <p class="sec-label">05 / BACKGROUND</p>
+        <h2>Education &amp; learning.</h2>
+        <p class="sec-sub">Where I studied and what I've been learning along the way.</p>
+      </div>
+      <div class="edu-grid">
+        <div class="reveal">
+          <h3 class="col">Education</h3>
+          <div class="timeline">
+            <div class="tl"><small>2021 — 2025</small><h4>B.Tech in Information Technology</h4><p>Malla Reddy University, Hyderabad</p><p>CGPA: 7.9 / 10</p></div>
+            <div class="tl"><small>2019 — 2021</small><h4>Intermediate Education</h4><p>Narayana Junior College, Hyderabad</p><p>Score: 93%</p></div>
+          </div>
+        </div>
+        <div class="reveal">
+          <h3 class="col">Certifications</h3>
+          <div class="certs">
+            <div class="card cert"><div class="ic">✦</div><div><h4>AWS Academy Cloud Foundations</h4><p>AWS Academy</p></div></div>
+            <div class="card cert"><div class="ic">✦</div><div><h4>Introduction to HTML5</h4><p>Coursera</p></div></div>
+          </div>
+          <h3 class="col" style="font-size:1rem;margin-bottom:10px">Relevant Coursework</h3>
+          <p class="course">Data Structures · Object-Oriented Programming · Database Management Systems · Software Engineering · Computer Networks</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="reveal">
+        <p class="sec-label">06 / GET IN TOUCH</p>
+        <h2>Have an opportunity? Let's talk.</h2>
+        <p class="sec-sub">I'm open to entry-level Java Developer, Backend Developer, and Software Engineer opportunities. Send a message and it lands straight in my inbox.</p>
+      </div>
+      <div class="contact-wrap">
+        <div class="contact-info reveal">
+          <div class="card info-row"><div class="ic">✉</div><div><b>EMAIL</b><span id="emailText">gollasumanth9@gmail.com</span></div><button class="btn btn-ghost btn-sm" id="copyEmail" type="button">Copy</button></div>
+          <div class="card info-row"><div class="ic">in</div><div><b>LINKEDIN</b><a href="https://www.linkedin.com/in/golla-sumanth/" target="_blank" rel="noopener"><span>golla-sumanth</span></a></div></div>
+          <div class="card info-row"><div class="ic">⌥</div><div><b>GITHUB</b><a href="https://github.com/sumanth8022" target="_blank" rel="noopener"><span>sumanth8022</span></a></div></div>
+          <div class="card info-row"><div class="ic">⌖</div><div><b>LOCATION</b><span>Hyderabad, India</span></div></div>
+        </div>
+
+        <form class="card reveal" id="contactForm" novalidate>
+          <!-- Spam honeypot: real people never fill this -->
+          <input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="row2">
+            <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="Jane Doe" required>
+              <div class="err-msg">Please enter your name.</div></div>
+            <div class="field"><label for="email">Your email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="jane@company.com" required>
+              <div class="err-msg">Please enter a valid email address.</div></div>
+          </div>
+          <div class="field"><label for="topic">I'm reaching out about</label>
+            <select id="topic" name="topic">
+              <option>Job opportunity</option>
+              <option>Internship</option>
+              <option>Freelance / project</option>
+              <option>Just saying hello</option>
+            </select></div>
+          <div class="field"><label for="message">Message</label><textarea id="message" name="message" maxlength="1500" placeholder="Tell me a little about the role or idea..." required></textarea>
+            <div class="count"><span id="chars">0</span> / 1500</div>
+            <div class="err-msg">Please write a short message (at least 10 characters).</div></div>
+          <button class="btn btn-primary" id="sendBtn" type="submit"><span class="spin"></span><span id="sendLabel">Send message ✉</span></button>
+          <div class="status-box" id="formStatus" role="status" aria-live="polite"></div>
+          <p class="form-note">Prefer your own mail app? <a id="mailtoFallback" href="mailto:gollasumanth9@gmail.com">Email me directly</a>.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container foot">
+    <a href="#home" class="logo">SG<span>.</span></a>
+    <span>Designed &amp; built by Sumanth Golla · 2026</span>
+    <div class="socials">
+      <a href="https://github.com/sumanth8022" target="_blank" rel="noopener">GitHub ↗</a>
+      <a href="https://www.linkedin.com/in/golla-sumanth/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a href="#contact">Email ↗</a>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<button class="icon-btn" id="toTop" aria-label="Back to top">↑</button>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
